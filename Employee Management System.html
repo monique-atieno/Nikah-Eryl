@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Employee Management System</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Employee Management System</h1>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="registration.html">Registration</a></li>
+            <li><a href="login.html">Login</a></li>
+            <li><a href="finance.html">Finance</a></li>
+            <li><a href="departments.html">Departments</a></li>
+            <li><a href="procurement.html">Procurement</a></li>
+            <li><a href="leave.html">Leave</a></li>
+        </ul>
+    </nav>
+    <main>
+        </main>
+    <style>
+        body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: #f2f2f2;
+}
+
+nav li {
+    display: inline-block;
+    padding: 10px;
+}
+
+    </style>
+</head>
+<body>
+    <h1>Employee Login</h1>
+    <form name="login"method="post"action="login.php">        
+        Name:<input type="text"
+        name="username"
+        placeholder="Enter your name"/>
+        <br/>
+         <br/>
+        <br/>
+        Password:<input type="password"
+        name="password"
+        value=""/>
+        <br/>
+        <br/>
+        <br/>
+        <button type="submit"name="submit"value="">
+         LOGIN
+        </button>
+        <button type="submit"name="reset">CANCEL</button>
+        <br/>
+        <a href="reset.html">Forgot Your Password? 
+        </a>
+        <a href="reset.html">Sign Up?
+        </a>
+        <br>
+        <br>
+        <div class="Registration">
+        <h1>Employee Registration</h1>
+        <form action="/submit_registration"
+        method="POST">
+        <input type="text"
+        name="First_Name" 
+        placeholder="First Name" required><br>
+        <input type="text"
+        name="Last_Name"
+        placeholder="Last Name"required><br>
+        <input type="email"
+        name="email"placeholder="Email Address"required><br>
+        <input type="text"name="ID no"placeholder="Employee ID"required><br>
+        <input type="password"
+        name="password"
+        placeholder="Password"
+        pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}"title=Must contain atleast one number,one uppercase and lowercase letter,and atleast 8 or more characters" required><br>
+        <input type="password"
+        name="Confirm_Password"
+        placeholder="Confirm Password"required><br>
+        <input type="checkbox"
+        name="terms"required>I agree to the<a href="#">terms and conditions</a><br>
+        <button type="submit">Register</button>
+        </div>
+        <h2>Department Module</h2>
+        <table>
+            <caption>Lists of Departments,Department and Employees deatails</caption>
+            <col span="1" class="Departments">
+            <colgroup id="data">
+             <col span="1" class="Departments Details">
+             <col span="1" class="Employees Details">
+            </colgroup>
+            <thead>
+             <tr>
+                <th>Departments</th>
+             <th scope="col">Department Details</th>
+             <th scope="column">Employees Details</th>
+             </tr>
+            </thead>
+            <tbody>
+             <tr>
+             <td>Department of IT</td> 
+             <td>3 Employees</td>
+     <td>Nikah</td>
+     </tr>
+     <tr>
+     <td>Departmentn of Human Resource</td>
+     <td>4 Employees</td>
+     <td>Eryl</td>
+     </tr>
+    </table>
+    <h3> Procurement Module</h3>
+        <p>Purchase Request:</p>
+        <table>
+            <tr>
+                <th>Item Name</th>
+                <th>Quantity</th>
+                <th>Price</th>
+            </tr>
+            <tr>
+                <td>Laptop</td>
+                <td>2</td>
+                <td>$1000</td>
+            </tr>
+            </table>
+                <h4>Finance Module</h4>
+                <p>Salary Slip:</p>
+                <table>
+                    <tr>
+                        <th>Basic Salary</th>
+                        <td>sh.1000</td>
+                    </tr>
+                    <tr>
+                        <th>HRA</th>
+                        <td>sh.200</td>
+                    </tr>
+                    </table>
+                    <title>Employee Leave</title>
+                    <link rel="stylesheet" href="style.css">
+                        <h5>Employee Leave</h5>
+                        <p>Leave Balance:</p>
+                        <ul>
+                            <li>Casual Leave: 10</li>
+                            <li>Sick Leave: 15</li>
+                            <li>Vacation Leave: 20</li>
+                        </ul>
+                
+</head>
+<body>
+    
+
+     </form
+</body>
+</html>
