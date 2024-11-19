@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-color: whitesmoke;
+            padding-left: 350px;
+            padding-top: 50px;
+        }
+        .Paris{
+            background-color: white;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+            padding: 20px;
+            height: 450px;
+            width: 650px;
+            font-size: 18px;
+            color: gray;
+        }
+        .footer{
+            padding-left: 10px;
+            padding-top: 30px;
+            margin-top: 10px;
+            font-size: 18px;
+
+        }
+     .bar{
+display:flex;
+align-items: center;
+margin-bottom: 20px;
+padding-inline: 10px;
+justify-content: space-between;
+padding-right: 80px;
+padding-bottom: 10px;
+padding-top: 20px;
+     }
+     .bar input{
+        padding: 10px;
+        border: whitesmoke;
+        background-color: whitesmoke;
+        width: 435px;
+        height: 40px;
+        border-radius: 3px;
+     }
+     .bar button{
+color: white;
+background-color: blueviolet;
+height: 58px;
+width: 95px;
+border: none;
+border-radius: 3px;
+cursor: pointer;
+     }
+     .Paris p{
+        margin: 5px 0;
+     }
+     .Paris h1{
+        font-size: 30px;
+        margin-bottom: 10px;
+        color: black;
+     }
+     .Paris input{
+        font-size: 18px;
+     }
+.button{
+    font-size: 18px;
+}
+.search-input{
+    text-decoration: solid;
+        border: none;
+        width: 70%;
+        border-color: blueviolet;
+        border-radius: 5px;
+        font-size: 20px;
+        padding: 10px 15px;
+}
+.search-button{
+    border: none;
+        background-color:rgb(123,3,123);
+        color: whitesmoke;
+        padding: 10px 15px;
+        font-size: 20px;
+        text-transform: uppercase;
+        margin-left: 5px;
+        border-radius: 9px; 
+}
+
+     
+    </style>
+</head>
+<body>
+    <div class="weather-app"></div>
+        <header>
+            <form id="search-form">
+                <input type="search"placeholder="Enter a city..."required class="search-input" id="search-input"/>
+                <input type="submit"value="Search"class="search-button"/>
+            </form>
+   <strong><h1>Paris</h1></strong>
+   <hr span style="color: rgba(179, 171, 171, 0.348);">
+   <p>
+    Tuesday 07:45,moderate rain &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
+    <span style="font-size: 60px;color: black;"><strong>☀️24</strong><sup><small>°C</small></sup></span>
+   </p>
+   <P>Humidity:<span style="color: red;">87%</span>Wind:<span style="color: red;">7.2km/h</span></P>
+   <br>
+   <br>
+   <hr span style="color: blue;">
+   <footer>
+    <p>
+        This project was coded by
+        <a href="https://github.com/Rennish"target="_blank">Rennish  Mboya</a>and is
+        <a href="https://github.com/Rennish/Weather-Api-Correct"target="_blank">on Github</a>and
+        <a href="https://beatiful-kitchen-9b7d1e.netlify.app/"target="_blank">hosted on Netlify</a>
+        </p>
+   </footer>   
+</body>
+</html>
